@@ -1,4 +1,7 @@
-def calculation(a,b):
-    print(a+b,a-b)
+a = int(input())
+b = int(input())
+
+def calculation(a ,b):
+    print(a + b ,a - b)
     
-calculation(20,10)
+calculation(a , b)
